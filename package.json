@@ -5,12 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "install": "npm install --legacy-peer-deps",
     "start": "next start",
     "lint": "next lint",
     "db:push": "drizzle-kit push",
-    "db:studio": "drizzle-kit studio",
-    "vercel-build": "npm install --legacy-peer-deps && npm run build"
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
     "@clerk/nextjs": "^5.2.8",
@@ -18,7 +16,6 @@
     "@neondatabase/serverless": "^0.9.4",
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-slot": "^1.1.0",
-    "@toast-ui/react-editor": "^3.2.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "drizzle-orm": "^0.32.1",
@@ -29,7 +26,8 @@
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.4.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "react-quill": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
