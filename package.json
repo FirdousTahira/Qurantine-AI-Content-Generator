@@ -2,14 +2,15 @@
   "name": "qura-ai-content-generator",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "db:push": "drizzle-kit push",
-    "db:studio": "drizzle-kit studio"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "db:push": "drizzle-kit push",
+  "db:studio": "drizzle-kit studio"
+},
+
   "dependencies": {
     "@clerk/nextjs": "^5.2.8",
     "@google/generative-ai": "^0.16.0",
